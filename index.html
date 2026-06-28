@@ -405,14 +405,55 @@
             </blockquote>
             <cite class="text-sm font-mono text-sky-500 not-italic uppercase tracking-widest mb-12 block">— Albert Einstein</cite>
             
+            ```html
             <div class="flex justify-center gap-8 mb-8">
-                <!-- (8d) Github -->
-                <a href="https://github.com/JS-Rojas" target="_blank" class="text-slate-500 hover:text-white transition-colors" title="GitHub"><i data-lucide="github" class="w-6 h-6"></i></a>
-                
-                <!-- (8e) Google Scholar -->
-                <a href="https://scholar.google.com/citations?user=m6uf3cEAAAAJ&hl=en&oi=sra" target="_blank" class="text-slate-500 hover:text-white transition-colors" title="Google Scholar"><i data-lucide="graduation-cap" class="w-6 h-6"></i></a>
-                
-                <a href="mailto:contact@example.com" class="text-slate-500 hover:text-white transition-colors"><i data-lucide="mail" class="w-6 h-6"></i></a>
+            
+                <!-- GitHub: SVG integrado para asegurar que siempre aparezca -->
+                <a
+                    href="https://github.com/JS-Rojas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-slate-500 hover:text-white transition-colors"
+                    title="GitHub"
+                    aria-label="GitHub"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                        aria-hidden="true"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.596 2 12.267c0 4.537 2.865 8.386 6.839 9.744.5.095.682-.222.682-.494 0-.243-.009-.888-.014-1.744-2.782.62-3.369-1.376-3.369-1.376-.454-1.184-1.11-1.499-1.11-1.499-.908-.637.069-.624.069-.624 1.003.073 1.531 1.058 1.531 1.058.892 1.569 2.341 1.116 2.91.853.091-.663.349-1.116.635-1.373-2.221-.26-4.555-1.141-4.555-5.078 0-1.122.39-2.039 1.029-2.758-.103-.261-.446-1.307.098-2.725 0 0 .84-.276 2.75 1.053A9.303 9.303 0 0 1 12 6.958a9.31 9.31 0 0 1 2.504.346c1.909-1.329 2.748-1.053 2.748-1.053.546 1.418.203 2.464.1 2.725.64.719 1.028 1.636 1.028 2.758 0 3.947-2.338 4.815-4.566 5.07.359.318.679.946.679 1.906 0 1.376-.012 2.486-.012 2.824 0 .275.18.594.688.493C19.138 20.65 22 16.804 22 12.267 22 6.596 17.523 2 12 2Z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </a>
+            
+                <!-- Google Scholar -->
+                <a
+                    href="https://scholar.google.com/citations?user=m6uf3cEAAAAJ&hl=en&oi=sra"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-slate-500 hover:text-white transition-colors"
+                    title="Google Scholar"
+                    aria-label="Google Scholar"
+                >
+                    <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                </a>
+            
+                <!-- Email -->
+                <a
+                    href="mailto:contact@example.com"
+                    class="text-slate-500 hover:text-white transition-colors"
+                    title="Email"
+                    aria-label="Email"
+                >
+                    <i data-lucide="mail" class="w-6 h-6"></i>
+                </a>
+            
             </div>
             <p class="text-xs text-slate-700 font-mono">
                 &copy; <span id="year"></span> Juan S. Rojas.
